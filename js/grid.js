@@ -23,7 +23,7 @@
         var y = 0;
         for(var i=0; i<36;i++) {
             this.gridArray[i] = null;
-            if (i > 0 && i % 6 == 0) {
+            /*if (i > 0 && i % 6 == 0) {
                 y++;
             }
             elementShape = new createjs.Shape(element);
@@ -31,7 +31,7 @@
             elementShape.x = i % 6 * 80 + 40;
             elementShape.y = y * 80 + 40;
             this.addChild(elementShape);
-
+            */
 
         }
     }
